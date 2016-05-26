@@ -1,0 +1,145 @@
+/*** sectioning elements ***/
+
+body {
+    background-color: #000000;
+    font-family: 'Oxygen', sans-serif;
+
+}
+
+header {
+    background-color: #9C4600;
+}
+
+main {
+    /* I wouldn't recommend applying any styles to this
+       section as the 'main' element is not supported
+       in all browsers yet. */
+}
+
+footer {
+
+}
+
+nav {
+ 
+}
+
+section {
+
+}
+
+aside {
+
+}
+.tagline{
+        font-family: 'Noticia Text', serif;
+            padding: 30px;
+    margin: 20px;
+}
+
+/**** base styles ***/
+
+h1 {
+    font-size: 60px;
+    font-family: 'Noticia Text', serif;
+    padding: 30px;
+    margin: 20px;
+}
+
+h2 {
+        font-family: 'Noticia Text', serif;
+        font-size: 40px;
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+
+}
+
+blockquote {
+
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+table {
+
+}
+
+tr {
+
+}
+
+th {
+
+}
+
+td {
+
+}
+
+
+/*** image styles ***/
+
+img{
+
+	
+}
+
+
+/*** link styles ***/
+
+a:link {
+    color: #000000;
+}
+
+a:visited {
+  color: #000000;
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+nav li{
+    width: 25%;
+    background-color: #000000;
+    
+}
+nav a:link {
+    color: #FFFFFF;
+}
+nav a:visited{
+    color: #FFFFFF;
+}
+
+/*** form styles (coming soon) ***/

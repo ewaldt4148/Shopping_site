@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<title>Doggie Doo's: Home</title>
+<link rel="icon" href="img/favicon.ico">
+
+<!-- Stylesheets -->
+<link rel="stylesheet" href="css/grid_6.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/owl.carousel.css">
+<link rel="stylesheet" href="css/owl.theme.default.css">
+<link rel="stylesheet" href="css/cart.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='https://fonts.googleapis.com/css?family=Noticia+Text' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+<meta charset="utf-8">
+</head>
+
+<body onload="loadCart()">
+<section class="background">
+<header>
+    
+    <div class="container">
+        
+        <div class="row">
+            
+            <div class="one-fourth">
+                <a href="index.html">
+                <img class="full" src="img/logo.png" alt="Doggie-Doo's">
+                </a>
+            </div>
+            
+            <div class="one-half, hide-mobile">
+                <h1>Doggie-Doo's</h1>
+                        <span class="tagline"><i>The online store for all your doggie needs!</i></span>
+            </div>
+            
+            <div class="one-fourth">
+               <!-- begin cart link widget -->
+<div id="cart_links" >
+    <a href="cart.html"><img class="cart_icon" src="img/cart_icon.png" alt="cart icon" /></a>
+    <span class="cart_link, cart_m"><a id="cart_link" href="#">Shopping Cart</a></span> <br class="hide-mobile">
+    <span class="item_count, cart_m">Items (<span id="item_count">0</span>)</span>
+    <span class="checkout_link, cart_m"><a id="checkout_link" href="#">Checkout</a></span>
+</div>
+<!-- end widget -->
+            </div>
+            
+        </div>
+    
+         <div class="row">
+            <div class="full">
+                <nav class="navbar center">
+                   
+                    <ul>
+                        <li><a href="Dog.html">Dogs</a></li>
+
+                        <li><a href="Beds.html">Beds</a></li>
+                        <li><a href="Toys.html">Toys</a></li>
+                        <li><a href="Collars.html">Collars</a></li>
+                   
+                    </ul>
+                </nav>
+            </div>
+            
+        </div>
+        
+    </div>
+</header>
+<section>    
+    <div class="container ">    
+                
+         <div class="row ">
+                
+            <div class="full">
+                <div id="my-carousel">
+                    <img src="img/Silde_show_1.jpg" alt="1">
+                    <img src="img/Slide_show_2.jpg" alt="2">
+                    <img src="img/Slide_show_3.jpg" alt="3">
+                    <img src="img/Slide_show_4.jpg" alt="5">
+                    <img src="img/Slide_show_5.jpg" alt="6">
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row">
+                
+            <div class="one-third">
+                <p><a href="beds.html"><img src="img/beds.jpg" alt="Beds Link"></a></p>
+                <p>25% Off All Instore Purchases</p>
+            </div>
+            <div class="one-third">
+                <p><a href="toys.html"><img src="img/toys.jpg" alt="Toys Link"></a></p>
+            </div>
+            
+            <div class="one-third">
+                <p><a href="dogs.html"><img src="img/dogs.jpg" alt="Dogs Link"></a></p>
+            </div>
+        </div>
+    </div>
+<div class="container">
+<footer>
+   
+    <div class="row">
+        <div class="full">
+            <p>Store Information</p>
+        </div>
+    </div>
+        <div class="row">
+        <div class="one-third">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2979.63972785504!2d-70.00159918502487!3d41.6851216854483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e357ad0dd1ad3f%3A0x8a9b27c05326b703!2sMA-28%2C+Chatham%2C+MA+02633!5e0!3m2!1sen!2sus!4v1463513226206" max-width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+        <div class="one-third">
+            <p>Contact</p>
+            <p>Phone Number - (617)273-1092</p>
+            <p>Email - doggie-doos@gmail.com</p>
+        </div>
+        <div class="one-third">
+            <p>Social Media</p>
+                <a href="https://twitter.com/?lang=en">
+                <img src="img/twitter.png" alt="Twiiter logo">
+                
+                <p>Twitter</p>
+                </a>
+                <a href="https://www.facebook.com/login/">
+                <img src="img/facebook.png" alt="1">
+                <p>Facebook</p>
+                </a>
+                <a href="https://plus.google.com/">
+                <img src="img/google_plus_logo.png" alt="1">
+                <p>Google Plus!</p>
+                </a>
+        </div>
+    </div>
+
+
+        <div class="row">
+        <div class="full">
+            <p>By Emma W #1</p>
+        </div>
+   </div>
+</div>
+</footer>
+            
+
+<!-- JavaScript -->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/cart.js"></script>
+<script>
+$('#my-carousel').owlCarousel({
+autoplay: true,
+autoplayHoverPause : true,
+autoplayTimeout : 3000,
+items: 1,
+dots :  true,  
+loop : true,
+margin : 15
+})
+</script>
+</body>
+</html>
